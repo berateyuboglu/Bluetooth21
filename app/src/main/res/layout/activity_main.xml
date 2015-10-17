@@ -1,0 +1,114 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:id="@+id/imageView4"
+            android:background="@drawable/omerr"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+        android:id="@+id/show_popup"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@+id/sicaklik"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bbut"
+            android:text="LEDLER"
+        android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/kapi2"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="KAPİ AC"
+
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/kapi4"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bbut"
+            android:textStyle="bold" />
+
+        <Button
+        android:id="@+id/kapi1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="KAPI KAPA"
+
+            android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_horizontal"
+            android:layout_weight="0.02"
+            android:background="@drawable/bbut"
+            android:textStyle="bold" />
+
+        <Button
+        android:id="@+id/kapi3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="GARAJ KAPA"
+
+        android:textColor="#000000"
+            android:layout_alignTop="@+id/kapi4"
+        android:layout_toRightOf="@+id/show_popup"
+        android:layout_gravity="center_horizontal"
+            android:background="@drawable/bbut"
+            android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/kapi4"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="GARAJ AC"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_below="@+id/kapi2"
+        android:layout_toLeftOf="@+id/kapi1"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bbut" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="ISI VE NEM"
+        android:id="@+id/sicaklik"
+
+        android:textSize="18dp"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/kapi3"
+        android:layout_alignBottom="@+id/kapi2"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bbut"
+        android:textStyle="bold" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/hareket"
+            android:layout_below="@+id/kapi3"
+            android:layout_alignRight="@+id/kapi3"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bbut"
+            android:textStyle="bold"
+            android:text="HAREKET" />
+
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_below="@+id/kapi3"
+        android:layout_alignParentLeft="true" />
+
+    </LinearLayout>

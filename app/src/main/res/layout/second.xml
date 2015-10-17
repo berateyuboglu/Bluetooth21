@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="GELİŞTİRENLER"
+        android:id="@+id/textView"
+        android:textSize="46dp"
+        android:layout_alignParentTop="true"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/beykoz" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Berat Eyüpoğlu"
+        android:id="@+id/textView2"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_marginBottom="54dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/imageView"
+        android:layout_alignRight="@+id/imageView"
+        android:background="@drawable/okan" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Okan Aydın"
+        android:id="@+id/textView3"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView2" />
+
+</RelativeLayout>
